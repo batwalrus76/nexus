@@ -19,7 +19,7 @@ objects:
     - from:
         kind: DockerImage
         name: docker.io/sonatype/nexus3:${NEXUS_VERSION}
-      name: ${NEXUS_VERSION}
+      name: ${NEXUS_VERSION}-1
 - apiVersion: v1
   kind: DeploymentConfig
   metadata:
