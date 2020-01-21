@@ -3,7 +3,7 @@ kind: Template
 labels:
   template: nexus3-persistent-template
 metadata:
-  name: portability-nexus3-persistent
+  name: portability-nexus3
   annotations:
     description: Sonatype Nexus 3 persistent template
     tags: ci,nexus
