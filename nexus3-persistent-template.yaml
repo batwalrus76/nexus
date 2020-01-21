@@ -3,7 +3,7 @@ kind: Template
 labels:
   template: nexus3-persistent-template
 metadata:
-  name: analytic-portability-nexus3
+  name: analytic-portability-nexus3-persistent
   annotations:
     description: Sonatype Nexus 3 persistent template
     tags: ci,nexus
@@ -150,7 +150,7 @@ parameters:
 - displayName: Sonatype Nexus service name
   name: SERVICE_NAME
   required: true
-  value: analytic-portability-nexus3
+  value: analytic-portability-nexus3-persistent
 - displayName: Sonatype Nexus version
   name: NEXUS_VERSION
   required: true
