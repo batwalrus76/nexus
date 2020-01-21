@@ -3,7 +3,7 @@ kind: Template
 labels:
   template: nexus3-persistent-template
 metadata:
-  name: portability-nexus3
+  name: analytic-portability-nexus3
   annotations:
     description: Sonatype Nexus 3 persistent template
     tags: ci,nexus
@@ -159,9 +159,9 @@ parameters:
   displayName: Volume Space for Nexus
   name: VOLUME_CAPACITY
   required: true
-  value: 4Gi
+  value: 8Gi
 - description: Max memory allocated to the Nexus pod
   displayName: Max Memory
   name: MAX_MEMORY
   required: true
-  value: 1Gi
+  value: 2Gi
