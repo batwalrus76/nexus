@@ -150,7 +150,7 @@ parameters:
 - displayName: Sonatype Nexus service name
   name: SERVICE_NAME
   required: true
-  value: nexus
+  value: portability-nexus
 - displayName: Sonatype Nexus version
   name: NEXUS_VERSION
   required: true
